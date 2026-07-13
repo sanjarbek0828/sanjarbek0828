@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Salom,%20Men%20Sanjarbekman!&fontSize=70&fontAlignY=35&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Salom,%20Men%20Sanjarbekman!&fontSize=50&fontAlignY=35&animation=twinkling" />
 </div>
 
 <div align="center">
@@ -24,7 +24,7 @@
 - 🌱 Asosiy qiziqishlarim: **3D Web (Three.js), Sun'iy Intelekt** va **Zamonaviy Web Dizayn**.
 - 💡 "Dasturlash faqat kod yozish emas, balki muammolarga chiroyli yechim topishdir."
 - 💬 Mendan Frontend va iOS loyihalar haqida bemalol so'rashingiz mumkin.
-- 📫 Bog'lanish: <a href="https://t.me/sanjarbek_404">Telegram</a> yoki [sanjarbekotabekov010@gmail.com]
+- 📫 Bog'lanish: <a href="https://t.me/sanjarbek_404">Telegram</a> yoki [sanjarbekotabekov010@gmail.com](mailto:sanjarbekotabekov010@gmail.com)
 
 <br/><br/>
 
