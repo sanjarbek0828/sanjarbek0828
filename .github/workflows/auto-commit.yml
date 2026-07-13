@@ -1,0 +1,28 @@
+name: Auto Commit Bot
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+jobs:
+  auto_commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Update Activity File
+        run: |
+          mkdir -p .activity
+          echo "Oxirgi faollik: $(date)" > .activity/log.txt
+          
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "sanjarbekotabekov010@gmail.com"
+          git config --local user.name "sanjarbek0828"
+          git add .activity/log.txt
+          git commit -m "Automated activity update 🔥" || echo "No changes to commit"
+          git push
